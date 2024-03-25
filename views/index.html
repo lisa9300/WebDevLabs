@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lisa Huang">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Lisa Huang professional website">
+    <title>Lisa Huang</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src = "../static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload=" addYear()">
+    <header id="webname">
+        <h1>Lisa Huang</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+              </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id = "greeting">Hi, my name is Lisa</h2>
+        <img src="../static/lisahuangimage.png" alt="Lisa Huang profile image" width="350px" class="classA">
+        <div class="classA"> 
+            <span id = "shortIntro">My name is Lisa Huang, and I am a student at Carnegie Mellon University pursuing a degree in Information Systems. I was raised in Singapore, where I attended an international school, which has given me a diverse perspective and background. I am passionate about exploring various aspects of computer science, and my coursework has exposed me to topics such as data structures, algorithms, linear algebra, and gradient descent.</span>
+            <span id = "readMore">read more</span>
+            <span id = "longIntro">Having also conducted research on Web3 applications and gained practical experience through an internship at a mobile apps company, I am excited about furthering my skills in software engineering through future internship and research opportunities. Outside of academics, I enjoy baking, painting, and meeting new people!</span>
+            <span id = "readLess">read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Lisa Huang &copy</p>
+    </footer>
+</body>
+</html>

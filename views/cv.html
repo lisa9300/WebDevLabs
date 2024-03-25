@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lisa Huang">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Lisa Huang professional website">
+    <title>Lisa Huang</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src = "../static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload=" addYear()">
+    <header id="webname">
+        <h1>Lisa Huang</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html" class="active">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+              </a>
+        </nav>
+    </header>
+    <div class="main" id="greeting">
+        <h2>Curriculum Vitae</h2>
+        <table>
+            <tr><th>Name</th><th>Description</th></tr>
+            <tr><td>Carnegie Mellon University</td><td>Bachelor of Science in Information Systems</td></tr>
+            <tr><td>Singapore American School</td><td>Selected Test Scores: AP Computer Science: 5; AP Calculus BC: 5; AP Statistics: 5; SAT: 1560
+            </td></tr>
+        </table>
+        <a href="../static/lisa.huang.resume.pdf" target="_blank">My resume, pdf version</a>
+    </div>
+    <footer>
+        <p id="copyYear">Lisa Huang &copy</p>
+    </footer>
+</body>
+</html>
